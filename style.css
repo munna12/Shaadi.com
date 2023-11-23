@@ -1,0 +1,168 @@
+*{
+  margin: 0px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+body{
+    background-color: #E2E2E2;
+}
+/* navbar design starts here */
+.nav{
+    background-color: #58614E;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 40px;
+}
+.nav-link{
+    color: white;
+    margin-left: 20px;
+    font-size: 14px;
+    padding: 10px;
+}
+/* navbar design ends here */
+
+/* header design starts here */
+.header{
+    display: flex;
+    border: 2px solid white;
+    box-shadow:0px 0px 10px grey;
+}
+.header-text{
+    text-align: center;
+    padding: 40px;
+    line-height: 45px;
+    margin-top: 20px;
+
+}
+.header-text p{
+    font-size: 25px;
+
+}
+.main-header{
+    margin-top: 20px;
+    padding-right: 300px;
+    padding-left: 300px;
+    
+    
+}
+/* header design ends here */
+/* header-next starts here */
+.header-next{
+    padding-top: 20px;
+    display: flex;
+    padding-right: 30px;
+    padding-left: 30px;
+    border: 2px solid white;
+}
+.testimonials{
+    text-align: justify;
+    border-left: 1px dotted grey;
+    padding-left: 30px;
+    padding-right: 200px;
+}
+.header-inner{
+    padding-right: 50px;
+    padding-left: 280px;
+
+}
+.header-next p{
+    line-height: 25px;
+    text-align: justify;
+
+}
+.header-next h2 , h1{
+    padding-bottom: 30px;
+}
+/* header-next ends here */
+/* about cards starts */
+.card{
+    width: 200px;
+    padding: 20px;
+}
+.card img{
+    display: block;
+    margin: auto;
+    border: 6px ridge white;
+    margin-bottom: 15px;
+}
+.btn{
+    background-color: grey;
+    color: white;
+    border: none;
+    padding: 5px;
+    margin-top: 15px;
+}
+.image-divisions{
+    display: flex;
+    justify-content: space-around;
+}
+.about h2{
+    padding-left: 23px;
+}
+.about{
+    border: 2px solid white;
+    border-color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+/* about cards ends */
+/* footer starts */
+.footer-inner-one{
+
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid white;
+    padding-left: 250px;
+    padding-right: 250px;
+    font-size: 15px;
+
+}
+.a{
+    width: 300px;
+    padding: 30px;
+    line-height: 25px;
+    border-right: 1px dotted grey;
+}
+.b{
+    width: 300px;
+    padding: 30px;
+    line-height: 25px;
+}
+.mail-btn{
+    background-color: grey;
+    color: white;
+    border: none;
+    padding: 5px;
+    margin-top: 30px;
+    display: block;
+    width: 200px;
+    text-align: center;
+    text-decoration: none;
+}
+.socialmedia-icons img{
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    border-radius: 20px;
+}
+.footer-inner-two{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #4F5843;
+    padding-left: 300px;
+    padding-right: 300px;
+}
+.footer-inner-two p{
+    color: white;
+    font-size: 12px;
+}
+.btn:hover{
+    background-color: black;
+}
+.mail-btn:hover{
+    background-color: black;
+}
